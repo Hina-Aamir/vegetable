@@ -1,0 +1,28 @@
+.left{
+    display:flex  !important;
+    flex-direction: flex-end;
+}
+.container{
+    display:flex;
+}
+.img1{
+flex-direction: flex-start;
+}
+.home1{
+  
+    flex-direction: flex-end;
+}
+.about1{
+    margin-left: 20px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 480px) and(max-width:650px){
+  
+    .main1 {margin-left: 216px;
+        flex-direction: column;
+    }
+    .img1{
+        width:100%;
+    }
+  }
