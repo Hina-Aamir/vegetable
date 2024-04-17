@@ -16,13 +16,38 @@ flex-direction: flex-start;
     margin-left: 20px;
     justify-content: center;
 }
+.veg1{
+    padding:5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+}
 
-@media screen and (min-width: 480px) and(max-width:650px){
-  
-    .main1 {margin-left: 216px;
-        flex-direction: column;
-    }
-    .img1{
-        width:100%;
-    }
-  }
+.veg3{
+    padding-left: 5%;
+
+}
+.veg4{
+    display:flex;
+  justify-content: center;
+  align-items: center;
+padding:2%;
+}
+/*
+
+  /* Small devices (landscape phones, 576px and up)*/
+@media only screen and (max-width:800px){
+.veg1 ,.test1{
+    flex-direction: column;
+}
+.veg2{
+    width:100%;
+}
+.flex-sm-column{
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+ }
